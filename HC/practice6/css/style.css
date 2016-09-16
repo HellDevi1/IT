@@ -37,10 +37,14 @@ font-family: 'fontf14eee643541cf03a10f26c944cc29f5';
 	margin: 0 auto;
 }
 #wrapper{
-	width: 995px;
+	width: 1070px;
 	margin: 0 auto;
 	height: 100%;
 	position: relative;
+	background: url(../img/noutbuk.png) no-repeat;
+	background-position-y: 236px;
+	background-position-x: 228px;
+	z-index: 2;
 }
 #header{
 	position: absolute;
@@ -48,14 +52,21 @@ font-family: 'fontf14eee643541cf03a10f26c944cc29f5';
 	left: 0;
 	right: 0;
 }
+.nout_fon{
+	height: 620px;
+	position: absolute;
+	
+	background-position: bottom;
+	background-color: transepant;
+	width: 1070px;
+	margin: 0 auto;
+	
+}
 #home{
 	position: relative;
 	height: 682px;
-	background-image: url(../img/clouds.png);
-	background-repeat: repeat-x;
-	background-position: bottom;
 	background-color: #3498db;
-	min-width: 1000px;
+	min-width: 1200px;
 }
 .logo{
 	float: left;
@@ -136,21 +147,28 @@ font-family: 'fontf14eee643541cf03a10f26c944cc29f5';
 .watch_video a{
 	font-size: 14px;
 	color: #E1E1E1;
+	cursor: pointer;
+	overflow: hidden;
 }
 .watch_video a, .watch_video img{
 	float: left;
 }
-.watch_video img{
-	padding-left: 28px;
-	padding-right: 12px;
+.watch_video .play{
+	margin-left: 28px;
+	margin-right: 12px;
 	cursor: pointer;
 }
-.container_noutbuk{
-	float: left;
-	position: relative;
+.default{
+	cursor: default;
 }
-.noutbuk {
+.container-oblaka{
+	width: 100%;
+	margin: 0;
+	height: 85px;
 	position: absolute;
-	top: 231px;
-	left: 228px;
+	background-image: url(../img/clouds.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	bottom: -1px;
+	z-index: 1;
 }
