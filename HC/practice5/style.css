@@ -1,0 +1,151 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.top
+{
+	text-align: center;
+	width: 100%;
+	min-height: 12%;
+}
+.content
+{
+	min-height: 80%;
+	width: 70%;
+	float: left;
+	background-color: white;
+	padding-left: 2%;
+}
+p
+{
+	border-bottom: 1px solid black;
+	padding-bottom: 2%;
+	text-align: justify;
+}
+p:last-child
+{
+	border-bottom: none;
+}
+.topcontent
+{
+	width: 28%;
+	min-height: 40%;
+	float: right;
+	background-color: white;
+}
+.botcontent
+{
+	width: 28%;
+	min-height: 40%;
+	float: right;
+	background-color: white;
+}
+.footer
+{
+	width: 100%;
+	min-height: 3%;
+	float: left;
+	background-color: #999;
+	text-align: right;
+}
+h1
+{
+	font-size: 36px;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	font-style: italic;
+}
+h2
+{
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: black;
+	font-style: italic;
+}
+p
+{
+	text-indent: 20px;
+	line-height: 20px;
+	font-weight: 16px;
+}
+p::first-letter
+{
+	font-weight: bold;
+	color: #A63F00;
+}
+img
+{
+	margin: 10px;
+	border: 2px double #FF8C00;
+}
+.text_gerb
+{	
+	position: relative;
+	right: 0;
+}
+.nazv_pesni
+{
+	font-size: 110%;
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.pesnya
+{
+	border-top: 1px solid black;
+	font-size: 83%;
+	margin-left: 14%;
+	display: block;
+	width: 72%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.ramka_pesni
+{
+	margin: 4%;
+	border: 1px solid black;
+}
+.title
+{
+	display: inline-block;
+	border: 1px solid black;
+	height: 10%;
+	width: 90%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.text_gerb
+{
+	text-align: center;
+	font-size: 26px;
+	font-style: italic;
+	padding-top: 2%;
+}
+.gerb_img, .flag_img
+{
+	text-align: center;
+}
+ .flag_img
+ {
+	border: none;
+}
+.img_v_text
+{
+	height: 20%;
+	width: 30%;
+}
+.center
+{
+	text-align: center;
+}
+.footer span
+{
+	padding-top: 0.8%;
+	font-style: italic;
+	font-size: 80%;
+	padding-right: 0.5%;
+}
