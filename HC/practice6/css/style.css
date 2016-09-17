@@ -270,7 +270,7 @@ font-family: 'fontf14eee643541cf03a10f26c944cc29f5';
 .lower_text{
 	position: relative;
 	text-align: center;
-	top: 420px;
+	top: 390px;
 }
 .lower_text div:first-child{
 	font-family: "Proxima Nova my balls";
@@ -284,6 +284,48 @@ font-family: 'fontf14eee643541cf03a10f26c944cc29f5';
 	color: #8d8d8d;
 	line-height: 23px;
 }
+.functions{
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+	bottom: -450px;
+	left: 35px;
+	margin-bottom: 150px;
+}
+.functions div{
+	display: inline-block;
+	text-align: center;
+}
+.functions span{
+	display: block;
+	margin-top: 50px;
+	font-size: 20px;
+	font-family: "Proxima Nova regular";
+	color: #484847;
+}
+.functions div:first-child{
+	margin-right: 182px;
+}
+.functions div:nth-child(2){
+	margin-right: 133px;
+}
+.functions div:last-child{
+	margin-right: 0;
+}
+.arrow_dotted{
+	position: absolute;
+}
+.arrow_dotted img{
+	position: absolute;
+	top: -165px;
+	left: 180px;
+}
+.arrow_dotted div{
+	position: absolute;
+	top: 0;
+	left: -45px;
+}
+
 
 #footer{
 	min-width: 1024px;
