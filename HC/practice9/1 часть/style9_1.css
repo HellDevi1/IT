@@ -1,0 +1,97 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.first_table{
+	width: 700px;
+	float: left;
+}
+table,tr, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+caption{
+	font-weight: bold;
+}
+.first_table tr:first-child td:first-child{
+	text-align: left;
+}
+.first_table tr:first-child td:nth-child(2){
+	text-align: center;
+}
+.first_table tr:first-child td:last-child{
+	text-align: right;
+}
+
+.first_table tr:last-child td:first-child{
+	text-align: right;
+}
+.first_table tr:last-child td:nth-child(2){
+	text-align: center;
+}
+.first_table tr:last-child td:last-child{
+	text-align: left;
+}
+
+
+.second_table{
+	width: 100%;
+}
+.second_table tr:first-child td:first-child, td:last-child{
+	width: 25%;
+}
+
+
+.third_table{
+	width: 600px;
+	float: right;
+}
+.third_table td{
+	width: 200px;
+}
+
+.fourth_table{
+	width: 300px;
+	height: 50px;
+	float: left;
+	background-color: #FBF2A2;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+.fourth_table td:first-child{
+	background-color: #E32636;
+}
+.fourth_table td:nth-child(2){
+	background-color: #2A52BE;
+}
+.fourth_table td:last-child{
+	background-color: #2ABE52;
+}
+
+.fifth_table{
+	width: 650px;
+	margin: 0 auto;
+	border-spacing: 0px;
+}
+.fifth_table td{
+	height: 40px;
+	padding: 10px;
+}
+.fifth_table tr:nth-child(2) td:first-child, .fifth_table tr:nth-child(2) td:last-child{
+	width: 180px;
+}
+.fifth_table tr:first-child td{
+	background-color: #9130F3;
+}
+.fifth_table tr:nth-child(2) td:first-child{
+	background-color: #2ABE52;
+}
+.fifth_table tr:nth-child(2) td:nth-child(2){
+	background-color: #E32636;
+}
+.fifth_table tr:nth-child(2) td:last-child{
+	background: #F7F21A;
+}
+.fifth_table tr:last-child td{
+	background-color: #2A52BE;
+}

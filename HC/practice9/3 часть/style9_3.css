@@ -1,0 +1,43 @@
+table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	border-collapse: collapse;
+	color: #686461;
+	margin: 20px auto;
+	border: 3px solid #B9B29F;
+	min-width: 1400px;
+	width: 1400px;
+}
+caption {
+	padding: 10px;
+	color: white;
+	background: rgba(234,232,217, 1);
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+	border-radius: 20px 20px 0 0;
+	border: 3px solid #B9B29F;
+	border-bottom: none;
+}
+th {
+	border-bottom: 3px solid #B9B29F;
+	padding: 10px;
+	text-align: left;
+}
+td {
+	padding: 10px;
+}
+tr:nth-child(odd) {
+	background: white;
+}
+tr:nth-child(even) {
+	background: #E8E6D1;
+}
+td:first-child{
+	width: 350px;
+	word-wrap: break;
+	text-align: left;
+}
+.mts_logo{
+	float: left;
+	margin-right: 5px;
+}
