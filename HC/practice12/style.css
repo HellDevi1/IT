@@ -1,0 +1,83 @@
+.all{
+	width: 800px;
+	min-width: 800px;
+	min-height: 10px;
+	margin: 0 auto;
+	border: 1px solid #b4b4b4;
+	font-family: sans-serif;
+	background: #dddddd;
+	margin-top: 20%;
+}
+.clear{
+	width: 100%;
+	clear: both;
+}
+.img img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 100px;
+	height: 70px;
+}
+.left{
+	width: 330px;
+	min-height: 250px;
+	float: left;
+}
+.left div:last-child{
+	margin-left: 25px;
+	font-size: 17px;
+}
+.left div:last-child span{
+	display: block;
+	margin: 18px 0;
+}
+.left div:last-child a{
+	display: block;
+	margin-top: 15px;
+	color: #260fb6;
+	font-weight: bold;
+}
+.right{
+	width: 470px;
+	min-height: 250px;
+	float: right;
+}
+.right > span{
+	display: block;
+	font-size: 33px;
+	font-weight: bold;
+	margin-top: 25px;
+	color: #ae4343;
+	letter-spacing: 0.5px;
+}
+.right form{
+	background: #d6d6d6;
+	border: 1px solid #b4b4b4;
+	min-height: 200px;
+	width: 95%;
+}
+.right form span{
+	display: block;
+	font-weight: bold;
+	margin-top: 18px;
+}
+.right form input, .right form span{
+	margin-left: 20px;
+}
+.widthe{
+	width: 55%;
+}
+.right form input:last-child{
+	margin-top: 30px;
+	height: 30px;
+	width: 60px;
+	font-weight: bold;
+	border: 1px solid #b4b4b4;
+	background: #d6d6d6;
+	cursor: pointer;
+	font-size: 15px;
+}
+.right form input:last-child:hover{
+	border: 1px solid #6074ba
+}
