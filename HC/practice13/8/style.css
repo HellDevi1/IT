@@ -1,0 +1,123 @@
+﻿body{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	background: url(https://avatanplus.com/files/resources/original/57361f537c733154ab6a5e36.jpg);
+	font-size: 27px;
+}
+
+@-webkit-keyframes home{
+	from
+	{
+		left: -5%;
+	}
+	to
+	{
+	}
+}
+@-webkit-keyframes lol{
+	from
+	{
+		transform: translateX(-200%);
+		visibility: visible;
+	}
+	to
+	{
+		visibility: visible;
+	}
+}
+@-webkit-keyframes lol3{
+	from
+	{
+		transform: translateX(200%);
+	}
+	to
+	{
+		visibility: visible;
+	}
+}
+
+.all div:last-child{
+	margin-top: 5px;
+	text-align: center;
+	visibility: visible;
+	animation: flip 1s ease-out forwards;
+	animation-delay: 0.3s;
+}
+.all div:nth-child(7){
+	animation: lol3 1s ease-out forwards;
+	animation-delay: 0.7s;
+}
+.all div:nth-child(6){
+	animation: lol 1s ease-out forwards;
+	animation-delay: 0.8s;
+}
+.all div:nth-child(5){
+	animation: lol3 1s ease-out forwards;
+	animation-delay: 0.9s;
+}
+.all div:nth-child(4){
+	animation: lol 1s ease-out forwards;
+	animation-delay: 1s;
+}
+.all div:nth-child(3){
+	animation: lol3 1s ease-out forwards;
+	animation-delay: 1.1s;
+}
+.all div:nth-child(2){
+	animation: lol 1s ease-out forwards;
+	animation-delay: 1.2s;
+}
+.all div:nth-child(1){
+	animation: lol3 1s ease-out forwards;
+	animation-delay: 1.3s;
+}
+.all div{
+	visibility: hidden;
+	text-align: center;
+}
+
+body  > a{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.img{
+	margin-top: 25px;
+	text-align: center;
+}
+img{
+	width: 300px;
+	height: 300px;
+	border-radius: 140px;
+}
+.all{
+	padding: 25px;
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	top: 10%;
+	border: 1px solid black;
+	animation: lol2 1s ease;
+	background: RGBA(50,50,50,0.5);
+	color: white;
+}
+.home{
+	padding: 10px;
+	font-size: 22px;
+	position: absolute;
+	bottom: 5%;
+	left: 3%;
+	background: RGBA(50,50,50,0.5);
+	border: 1px solid black;
+	animation: home 1s ease-out;
+}
+.home > a{
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+.home > a:hover{
+	color: lightblue;
+}
